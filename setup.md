@@ -20,7 +20,7 @@ npm install -g @angular/cli
 ### Step 2. Clone this project repository
 
 1. On a terminal window, navigate to your working directory
-2. Enter this command to clone the project repository from github
+2. Enter this command to clone the project repository from github.
 
 ```
 git clone https://github.com/naviprem/ask-me-about.git
