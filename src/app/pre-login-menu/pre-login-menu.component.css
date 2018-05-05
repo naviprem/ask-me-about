@@ -1,0 +1,16 @@
+div.menu-bar {
+    float:left;
+    margin-top: -100px
+}
+
+div.menu-icon {
+    padding: 50px;
+}
+
+div.menu {
+    padding-top: 20px;
+}
+
+div.menu-item {
+    padding: 10px 0 0 0;
+}
