@@ -7,6 +7,8 @@ You need to set up your development environment before you can do anything.
 
 1. Install [git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) on your machine
 
+2. Create an account with [www.github.com](https://github.com/) to commit and collaborate on your code
+
 2. Install [Node.js and NPM](https://nodejs.org/en/download/) if they are not already on your machine.
 
 3. Install the Angular CLI globally. Open a terminal window and type this command to install Angular CLI globally
