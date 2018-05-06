@@ -1,11 +1,106 @@
-.column {
-    float: left;
+.container {
+    padding-top: 40px;
+    position: relative;
 }
 
-.left, .right {
-    width: 25%;
+/* Style the search box inside the navigation bar */
+.topnav input[type=text] {
+    display: block;
+    padding: 6px;
+    margin-top: 25px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    background-color: #f3f3f3;
+    position: absolute;
+    width: 70%
 }
 
-.middle {
-    width: 50%;
+.header-elements {
+    float: right;
+    padding-top: 6px;
+    border: none;
+    border-radius: 5px;
+    font-size:18px;
+    margin-top: 25px;
+}
+
+.propic {
+    display: block;
+    margin-left: auto;
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+}
+
+.topics {
+    font-size: 16px;
+    text-align: left;
+}
+
+.topics-sub {
+    font-weight: lighter;
+    text-align: left;
+    text-indent: 25px;
+}
+
+.topics-menu {
+    float:left;
+    text-align: left;
+}
+
+body {
+    font-family: "Helvetica Neue", Helvetica, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, "ＭＳ Ｐゴシック", arial, sans-serif;
+    font-size: 11px;
+    line-height: 12px;
+}
+
+header {
+    border-bottom: 1px solid #e1e1e1;
+}
+.container {
+    margin: 0 auto;
+}
+.container, .element {
+    padding: 10px;
+}
+.element-stack {
+    padding: 0 10px;
+    margin: 10px 0;
+}
+.item {
+    width: 256px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.item:hover {
+    background: #f3f3f3;
+}
+.card-propic {
+    display: block;
+    border-radius: 6px;
+    max-width: 100%;
+}
+.card-info {
+    position: relative;
+}
+.item-title {
+    color: #444;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: bold;
+}
+.item-source {
+    color: #b5b5b5;
+    font-size: 11px;
+    line-height: 12px;
+    font-weight: bold;
+}
+.card-profile-info {
+    display: inline-block;
+    vertical-align: middle;
+    color: #555;
+}
+.card-name {
+    font-weight: bold;
 }
