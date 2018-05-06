@@ -1,0 +1,116 @@
+.container {
+    padding-top: 40px;
+    position: relative;
+}
+
+/* Style the search box inside the navigation bar */
+.topnav input[type=text] {
+    display: block;
+    padding: 6px;
+    margin-top: 25px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    background-color: #f3f3f3;
+    position: absolute;
+    width: 70%
+}
+
+.header-elements {
+    float: right;
+    padding-top: 6px;
+    border: none;
+    border-radius: 5px;
+    font-size:18px;
+    margin-top: 25px;
+}
+
+.propic {
+    display: block;
+    margin-left: auto;
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+}
+
+.topics {
+    font-size: 16px;
+    text-align: left;
+}
+
+.topics-sub {
+    font-weight: lighter;
+    text-align: left;
+    text-indent: 25px;
+}
+
+.topics-menu {
+    float:left;
+    text-align: left;
+}
+
+textarea {
+    resize: none;
+}
+
+.save{
+    outline: none;
+    height: 40px;
+    text-align: center;
+    width: 130px;
+    border-radius: 40px;
+    background: #fff;
+    border: 2px solid #1e6be8;
+    color: #1e6be8;
+    letter-spacing: 1px;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.25s ease;
+}
+.cancel{
+    outline: none;
+    height: 40px;
+    text-align: center;
+    width: 130px;
+    border-radius: 40px;
+    background: #fff;
+    border: 2px solid #b5bfce;
+    color: #b5bfce;
+    letter-spacing: 1px;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.25s ease;
+}
+
+button:active {
+    letter-spacing: 2px;
+}
+
+.save:hover {
+    color: white;
+    background: #1e6be8;
+}
+
+.cancel:hover {
+    color: white;
+    background: #b5bfce;
+}
+
+button {
+    margin: 10px;
+    float: right;
+}
+
+label {
+    padding-top: 10px;
+}
+
+.buttons {
+    padding-top: 10px;
+}
+
+.info {
+    margin-left:0px;
+}
